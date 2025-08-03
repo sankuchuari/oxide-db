@@ -1,2 +1,4 @@
-mod shell;
-mod commands;
+//解析器
+pub mod shell;
+//参数仓库
+pub mod commands;
