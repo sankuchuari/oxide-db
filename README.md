@@ -1,7 +1,7 @@
 # OxideDB 功能进度
 
 > **开发状态**：进行中  
-> **当前完成度**：0% (0/46)
+> **当前完成度**：17.39% (8/46)
 
 ---
 
@@ -33,14 +33,14 @@
 
 ## 命令行接口（CLI）
 
-- [ ] `oxide init`：初始化数据库目录
-- [ ] `oxide create <collection>`：创建集合
-- [ ] `oxide insert <collection> <document>`：插入文档
-- [ ] `oxide query <collection> [...]`：查询文档
-- [ ] `oxide delete <collection> --filter`：按条件删除
-- [ ] `oxide list`：列出所有集合及字段定义
-- [ ] `oxide info <collection>`：显示集合统计信息
-- [ ] 支持交互式 Shell 模式
+- [x] `oxide init`：初始化数据库目录
+- [x] `oxide create <collection>`：创建集合
+- [x] `oxide insert <collection> <document>`：插入文档
+- [x] `oxide query <collection> [...]`：查询文档
+- [x] `oxide delete <collection> --filter`：按条件删除
+- [x] `oxide list`：列出所有集合及字段定义
+- [x] `oxide info <collection>`：显示集合统计信息
+- [x] 支持交互式 Shell 模式
 - [ ] 支持输出为 JSON / 表格格式
 
 ---
